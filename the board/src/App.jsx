@@ -1,15 +1,13 @@
-
-
 import React from 'react';
-import TaskBoard from './TaskBoard';
 import { TaskProvider } from './TaskContext';
+import Taskboard from './Taskboard';
 
 
 function App() {
   return (
     <TaskProvider>
       <div className="App">
-        <TaskBoard />
+        <Taskboard />
       </div>
     </TaskProvider>
   );
